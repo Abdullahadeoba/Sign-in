@@ -7,9 +7,11 @@
 }
 
 h2 {
-    font-size: 2em;
-    color: #fff;
+    font-size: 3em;
+    color:white;
     text-align: center;
+    font-weight: bolder;
+
 }
 
 section{
