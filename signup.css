@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+h2 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url(login5.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: animateBg 5s linear infinite;
+}
+
+@keyframes animateBg {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+.login-box{
+    position: relative;
+    width: 590px;
+    height: 700px;
+    background:transparent;
+    border: 2px  solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter:blur(15px) ;
+}
+
+.section a{
+    font-size: 20px;
+    font-weight: normal;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-box{
+    width: 580px;
+    margin: 30px 0;
+    border-bottom: 2px solid #fff;
+    border-radius: 10px;
+}
+
+
+.input-box input{
+    width: 100%;
+    height: 50px;
+    background: transparent scroll;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #fff;
+    padding: 0 35px 0 5px;
+}
+.input-box .icon{
+    position: absolute;
+    right: 20px;
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 60px;
+    
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 0.8em 1.3em 0.8em 0.9em;
+    color: white;
+    margin-left: 200px;
+    background: #ad5389;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    border: none;
+    letter-spacing: 0.05em;
+    border-radius: 16px;
+  }
+  
+  button svg {
+    margin-right: 3px;
+    transform: rotate(30deg);
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  
+  button span {
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  
+  button:hover svg {
+    transform: translateX(5px) rotate(90deg);
+  }
+  
+  button:hover span {
+    transform: translateX(7px);
+  }
+.sign{
+    color: white;
+    text-decoration: none;
+}
+.sign:hover{
+    text-decoration: underline;
+}
+
+@media (max-width:490px) {
+    .login-box{
+        width: 100%;
+        height: 100vh;
+        border: 10px solid yellowgreen;
+        border-radius: 10px;
+    }
+}
