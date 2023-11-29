@@ -116,7 +116,7 @@ button{
     cursor: pointer;
     font-size: 1em;
     color: #000;
-    font-weight: 600;
+    font-weight: bolder;
 }
 
 .register-link{
