@@ -20,7 +20,7 @@ section{
     align-items: center;
     width: 100%;
     height: 100vh;
-    background: url(login5.jpg) no-repeat;
+    background: url(background2.avif) no-repeat;
     background-size: cover;
     background-position: center;
     animation: animateBg 5s linear infinite;
