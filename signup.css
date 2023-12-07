@@ -14,7 +14,7 @@ h2 {
 
 }
 
-section{
+form{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,32 +76,19 @@ section{
     line-height: 60px;
     
 }
-
-button {
-    align-items: center;
-    justify-content: center;
-    font-family: sans-serif;
-    font-weight: 700;
-    font-size: 17px;
-    padding: 0.8em 1.3em 0.8em 0.9em;
-    color: white;
-    margin-left: 200px;
-    background: #ad5389;
-    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+button{
+    width: 100%;
+    height: 40px;
+    background: #fff;
     border: none;
-    letter-spacing: 0.05em;
-    border-radius: 16px;
+    outline: none;
+    border-radius: 40px;
     cursor: pointer;
-  }
-  
-  
-  
-  button span {
-    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
-  }
-  button:hover span {
-    transform: translateX(7px);
-  }
+    font-size: 1em;
+    color: #000;
+    font-weight: bolder;
+    font-size: 23px;
+}
 .sign{
     color: white;
     text-decoration: none;
