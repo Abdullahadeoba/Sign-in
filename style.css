@@ -35,13 +35,13 @@ section{
     align-items: center;
     backdrop-filter:blur(20px) ;
 }
-
+ 
 h2 {
     font-size: 3em;
-    color: white;
+    color: black;
     text-align: center;
     font-weight: bolder;
-}
+} 
 
 .input-box{
     width: 330px;
