@@ -34,7 +34,7 @@ form{
 .login-box{
     position: relative;
     width: 590px;
-    height: 740px;
+    height: 700px;
     background:transparent;
     border: 2px  solid rgba(255, 255, 255, .5);
     border-radius: 20px;
@@ -43,7 +43,7 @@ form{
     backdrop-filter:blur(15px) ;
 }
 
-.section a{
+.form a{
     font-size: 20px;
     font-weight: normal;
     justify-content: center;
@@ -76,19 +76,31 @@ form{
     line-height: 60px;
     
 }
-button{
-    width: 100%;
-    height: 40px;
-    background: #fff;
-    border: none;
-    outline: none;
-    border-radius: 40px;
-    cursor: pointer;
-    font-size: 1em;
-    color: #000;
+
+button {
+   
+    align-items: center;
+    justify-content: center;
+    font-family: inherit;
     font-weight: bolder;
-    font-size: 23px;
-}
+    font-size: 20px;
+    padding: 0.8em 1.3em 0.8em 0.9em;
+    color: black;
+    margin-left: 200px;
+    background:white;
+    border: none;
+    letter-spacing: 0.05em;
+    border-radius: 16px;
+  }
+  
+  
+  
+  button span {
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  button:hover span {
+    transform: translateX(7px);
+  }
 .sign{
     color: white;
     text-decoration: none;
