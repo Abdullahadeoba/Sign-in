@@ -10,6 +10,7 @@
 </head>
 <body>
     <section>
+        <div class="alert alert-danger p-2 text-center" style="display: none;" id="err">Spaces cannot be empty</div>
         <main class="login-box">
             <h2>Create New Account</h2>
            <div class="input-box">
@@ -51,7 +52,7 @@
             <div style="text-align: center;"> <span> 
                 <input type="checkbox">  I agree with the terms and conditon</span></div>
                 <br>
-                <button type="submit" style="margin-left:230px;">Signup</button>
+                <button type="submit"  onclick="err()" style="margin-left:230px;">Signup</button>
 
                  <br>
              
@@ -61,5 +62,10 @@
 
         </main>
     </section>
+    <script>
+        function btn(){
+            err.style.display = "none"
+        }
+    </script>
 </body>
 </html>
