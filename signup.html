@@ -10,9 +10,9 @@
 </head>
 <body>
     <section>
-       
         <main class="login-box">
-            <h2 style="color: black;">Create New Account</h2>
+            <div class="alert alert-danger p-2 text-center" style="display: none;" id="err">Spaces cannot be empty</div>
+            <h2>Create New Account</h2>
            <div class="input-box">
             <input type="text" placeholder="First name" required>
             
@@ -51,15 +51,19 @@
            </div>
             <div style="text-align: center;"> <span> 
                 <input type="checkbox">  I agree with the terms and conditon</span></div>
-                <button>
-                    <span>Signup</span>
-                  </button>
+                <button type="submit">Signup</button>
+
+                 
              
             <div>
-                <p style="text-align: center;">Already have account?<a href="index.html" class="sign">Sign in instead</a></p>
+                <p style="text-align: center;">Already have account? <a href="index.html" class="sign">Sign in instead</a></p>
             </div>
 
         </main>
     </section>
+
+    <script>
+        err.style.display = "block"
+    </script>
 </body>
 </html>
